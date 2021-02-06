@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Light } from "./light";
 
 export function TrafficLight() {
-	const [lightOn, setLightOn] = useState(null);
+	const [lightOn, setLightOn] = useState("");
 
 	function handleLightChange(newLightOn) {
 		lightOn != newLightOn ? setLightOn(newLightOn) : setLightOn("");
